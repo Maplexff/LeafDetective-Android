@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FD"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="180dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="110dp"-->
+<!--            android:src="@drawable/ic_icon"-->
+<!--            android:background="@drawable/login_et_bg"/>-->
+
+
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_margin="30dp">-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:background="@drawable/show_topround"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:paddingRight="20dp"-->
+<!--                android:layout_height="50dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_idshow"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/ic_user"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/idshow"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:hint="id" android:textSize="14sp"/>-->
+
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+<!--&lt;!&ndash;            android:background="@drawable/show_topround"&ndash;&gt;-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:background="@drawable/show_noround"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:paddingRight="20dp"-->
+<!--                android:layout_height="50dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_nameshow"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/ic_user"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nameshow"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:hint="请输入用户名" android:textSize="14sp"/>-->
+
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:background="@drawable/show_bottomround"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:paddingRight="20dp"-->
+<!--                android:layout_height="50dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_usrnameshow"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:src="@drawable/ic_password"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/usernameshow"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:inputType="textPassword"-->
+<!--                    android:importantForAccessibility="yes"-->
+<!--                    android:hint="请输密码" android:textSize="14sp"/>-->
+
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/passwordchangeshow"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:text="修改密码"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/nologinchangeshow"-->
+<!--                    android:layout_marginLeft="30dp"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:text="退出登录"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_height="50dp"/>-->
+
+
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/ic_icon_round"
+            android:background="@drawable/login_et_bg"/>
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:background="@drawable/show_topround"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/ic_idshow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_assignment_user"/>
+
+                <TextView
+                    android:id="@+id/idshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:background="@null"
+                    android:hint="id" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <!--            android:background="@drawable/show_topround"-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:background="@drawable/show_noround"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/ic_nameshow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_user"/>
+
+                <TextView
+                    android:id="@+id/nameshow"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:background="@null"
+                    android:hint="用户名" />
+
+                <ImageView
+                    android:id="@+id/ic_nameedit"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_edit"
+                    android:background="@drawable/ripple_background"/>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:background="@drawable/show_bottomround"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/ic_passwordshow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_password"/>
+
+                <TextView
+                    android:id="@+id/passwordshow"
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:importantForAccessibility="yes"
+                    android:hint="密码"/>
+
+                <ImageView
+
+                    android:id="@+id/pwdshowhidepasswordbutton"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_eyeoff"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/ripple_background"/>
+
+
+                <ImageView
+                    android:id="@+id/ic_passwordedit"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_edit"
+                    android:background="@drawable/ripple_background"/>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+<!--            android:gravity="center_vertical|center_horizontal"-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/passwordchangeshow"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:text="修改密码"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/nologinchangeshow"-->
+<!--                    android:layout_marginLeft="30dp"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:text="退出登录"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_height="50dp"/>-->
+                <Button
+                    android:id="@+id/nologinchangeshow"
+                    android:layout_width="match_parent"
+                    android:text="退出登录"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="50dp"/>
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_gallery"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+</androidx.appcompat.widget.LinearLayoutCompat>

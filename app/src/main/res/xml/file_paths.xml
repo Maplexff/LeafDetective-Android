@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path
+        name="capture_images"
+        path="Pictures/" />
+    <cache-path
+        name="crop_cache"
+        path="ucrop/" />
+    <external-media-path
+        name="external_media"
+        path="." />
+
+<!--    <external-files-path name="my_images" path="Pictures/" />-->
+<!--    <cache-path name="my_cache" path="." />-->
+
+</paths>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#F8F5FD"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/white"
+        app:title="操作"
+        app:navigationIcon="@drawable/baseline_menu_open_24"
+        android:background="@color/my_light_primary"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:background="@drawable/login_et_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_safari"/>
+
+            <EditText
+                android:id="@+id/searchcontent1"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:hint="请输入搜索内容"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/searcherbutton"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_search_24"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:background="@drawable/login_et_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/baseline_camera_alt_24"/>
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_marginStart="65dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/baseline_photo_24"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Leaf Detective</string>
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">"操作"</string>
+    <string name="menu_gallery">"账户"</string>
+    <string name="menu_slideshow">"历史"</string>
+
+    <string name="id_label">ID：%s</string>
+    <string name="username_label">用户名：%s</string>
+
+    <!-- 密码强度 -->
+    <string name="password_strength_weak">低</string>
+    <string name="password_strength_medium">中</string>
+    <string name="password_strength_strong">高</string>
+    <string name="passwordnew_security_low">新密码安全系数太低</string>
+
+</resources>

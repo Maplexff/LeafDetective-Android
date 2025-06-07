@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#F8F5FD"
+    tools:context=".ResultActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:fitsSystemWindows="true"
+        android:id="@+id/backtomain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/white"
+        app:title="返回"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        android:background="@color/my_light_primary"/>
+
+    <ImageView
+        android:id="@+id/result_image"
+        android:layout_width="224dp"
+        android:layout_height="224dp"
+        android:layout_marginHorizontal="93dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/result_label_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/result_class_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/result_score_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/result_address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
